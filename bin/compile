@@ -105,6 +105,7 @@ else
 fi
 
 echo "-----> Installing wp-cli v${WPCLI_VERSION}"
+echo "foo bar"
 if [ ! -d "${BUILD_DIR}/runtimes/wp-cli" ]; then
    echo "Fetching wp-cli v${WPCLI_VERSION} and installing into ${BUILD_DIR}/runtimes/wp-cli" | indent
    mkdir -p ${BUILD_DIR}/runtimes/wp-cli | indent
